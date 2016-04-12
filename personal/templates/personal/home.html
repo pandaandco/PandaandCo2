@@ -1,13 +1,16 @@
 {% extends "personal/header.html" %}
-
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
 
 {% block content %}
-<p>Welcome to Panda and Co's homepage</p>
+<div>
+    <h1><a href="/">Panda and Co</a></h1>
+</div>
+
 <body>
 	<center>
 	<div id="map"></div>
 	<iframe src="https://www.google.com/maps/d/u/1/embed?mid=zTkV-GwmgcHs.kwWjGojZF8-E" width="800" height="500"></iframe>
 </body>
-{% include "personal/includes/htmlsnippet.html" %}
 {% include "personal/includes/htmlsnippet.html" %}
 {% endblock %}
