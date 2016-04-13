@@ -22,6 +22,6 @@ this isn't supposed to be here
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
+    url(r'^', include('personal.urls')),
     # url(r'^webapp/', include('webapp.urls')),
-    url(r'^$', include('personal.urls')),
 ]
