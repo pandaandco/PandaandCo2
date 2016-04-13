@@ -19,6 +19,6 @@ from . import views
 
 urlpatterns = [
     url(r'^$', views.index, name='index'),
-    url(r'^$', views.personalityquiz, name='personalityquiz'),
-    url(r'^$', views.conservation, name='conservation'),    
+    url(r'^personalityquiz/', views.personalityquiz, name='personalityquiz'),
+    url(r'^conservation/', views.conservation, name='conservation'),    
 ]
