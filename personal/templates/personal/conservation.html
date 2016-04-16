@@ -1,10 +1,164 @@
 <!DOCTYPE html>
+<html>
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
 <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+<head>
+	<style>
+	#header {
+		color: white;
+		text-align: center;
+		padding: 5px;
+	}
+	#nav {
+		line-height:30px;
+    background-color:#eeeeee;
+    height:1110px;
+    width:300px;
+    float:left;
+    padding:5px;
+		font-family: cambria;
 
-<div>
-  <centre>
-    <a><img src="http://images.cooltext.com/4653930.png" width="652" height="106" alt="Panda and Co." /></a>
-<br />
+	}
+	#section {
+    float:center;
+     padding:10px;
+	}
+	#footer {
+     color:white;
+    clear:both;
+    text-align:center;
+     padding:5px;
+	 }
+		table, th, td {
+			border-collapse:collapse;
+			text-align: center;
+			background-color:black;
+		}
+		th, td {
+			padding: 15 px
+			text-align: center;
+		}
+		table {
+			border-spacing: 5px;
+		}
+		h1{
+			text-decoration:underline;
+			color:white;
+			font-family:cambria;
+			text-align: center;
+		}
+		h1:hover{
+			color:grey;
+		}
+		.centeredstuffs{
+			text-align: center;
+		}
+		h3{
+			text-decoration:underline;
+			color:white;
+			font-family:cambria;
+		}
+		h3:hover{
+			color:grey;
+		}
+		.centeredstuffs{
+			text-align: center;
+		}
+		p{
+			font-family: cambria;
+			color:white;
+		}
+div.paragraphs {
+	background-color:black;
+	color:white;
+	margin:20px;
+	padding:20px;
+	text-align: center;
+}
+	</style>
+</head>
+<div id="header" style="border-style:outset;color:grey;">
+	<center>
+    <a href="http://www.gifmix.net/gifs/" target="_blank" title="Gifs"><img src="http://www.gifmix.net/gifs/panda-gifs/PANDA02.GIF" border="0" alt="Gifs" style="=width:100%" height="100%"></a>
+		<a href="http://cooltext.com"><img src="http://images.cooltext.com/4653930.png" style="=width:100%" height="100%" alt="Panda and Co." /></a>
+    <a href="http://www.gifmix.net/gifs/" target="_blank" title="Gifs"><img src="http://www.gifmix.net/gifs/panda-gifs/PANDA02.GIF" border="0" alt="Gifs" style="=width:100%" height="100%"></a>
 </div>
-{% include "personal/includes/backhome.html" %}
+
+
+
+<body style="background-color:lightgreen;">
+
+<div style="position:absolute;left"
+<IMG SRC="1.jpg" ALT="" WIDTH=32 HEIGHT=32>
+<div id="nav">
+	<h3 style="color:black";>Why are they endangered?</h3><br>
+	<h3 style="color:black";>What is being done?</h3><br>
+	<h3 style="color:black";>Panda Jokes</h3><br>
+</div>
+
+
+<div class="paragraphs" id="section">
+<h1>Why are they endangered?</h1>
+</div>
+<table style="=width:100%">
+	<tr>
+		<td>
+			<h3>Hunting</h3>
+		</td>
+		<td>
+				<p>Pandas are poached for their fur. However, this is becoming less common due to strict laws enforced by the Chinese goverment and greater public awarness of the panda's protected stauts. Having said this Pandas are still often killed accidentally by hunters in search of other animals in the same habitat.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h3>Habitat loss</h3>
+		</td>
+		<td>
+				<p>Forest destruction has reduced the amount of bamboo, the Pandas main diet consits of. As local populations grow many forests are being converted to agricultural areas creating also more roads, railroads which increasingly fragment the forests. This isolates panda populations, thus preventing sucessful breeding in the wild population.</p>
+		</td>
+	</tr>
+	<tr>
+		<td>
+			<h3>Bamboo harvesting</h3>
+		</td>
+		<td>
+			<p>Bamboo holds medicinal purposes for which many people harvest it.</p>
+		</td>
+	</tr>
+</table>
+
+<div class="paragraphs" id="section">
+<h1>What is being done?</h1>
+<p>Donations raised are often used in several different ways;</p>
+<p>-Increase the areaa of the habitat under leagal protection. (Panda reserves now cover more than 3.8 million acres of forest).</p>
+<p>-Create "green corridors" to link isolated Pandas.</p>
+<p>-Patrols to deter poaching, illegal logging and encroachment.</p>
+<p>-Building local capacities for nature reserve managment.</p>
+<p>-Continual development in research and monitoring of Pandas.</p>
+</div>
+
+<div class="paragraphs" id="section">
+<h1>Panda Jokes!</h1>
+<p style="font-family:cambria;">Did you hear about the party in the Panda enclosure at the zoo?</p>
+<p style="font-family:cambria;color:yellow;">It was pandamonium!</p>
+<p style="font-family:cambria;">What did the panda bear say when they where moved out of their natural habitat
+<p style="font-family:cambria;color:yellow;">This is un-Bear-able!</p>
+<p style="font-family:cambria;">What goes black, white, black, white, black, white?</p>
+<p style="font-family:cambria;color:yellow;">A panda rolling down a hill!</p>
+<p style="font-family:cambria;">What is black and white and very loud?</p>
+<p style="font-family:cambria;color:yellow;">A panda with a set of drums</p>
+</div>
+
+{% include "personal/includes/htmlsnippet.html" %}
+<div class="centeredstuffs" id="footer">
+	<a href="http://www.gifmix.net/gifs/" target="_blank" title="Gifs"><img src="http://www.gifmix.net/gifs/panda-gifs/PANDA07.GIF" border="0" alt="Gifs"></a>
+	<a href="conservation">Panda Conservation</a>
+	<a href="personalityquiz">Personality Quiz</a>
+	<a href="http://www.gifmix.net/gifs/" target="_blank" title="Gifs"><img src="http://www.gifmix.net/gifs/panda-gifs/PANDA07.GIF" border="0" alt="Gifs"></a>
+</div>
+
+</body>
+
+{% include "personal/conservation.html" %}
+{% endblock %}
+</html>
